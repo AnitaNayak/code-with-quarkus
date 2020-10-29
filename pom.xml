@@ -16,7 +16,10 @@
     <maven.compiler.parameters>true</maven.compiler.parameters>
     <quarkus-plugin.version>1.9.0.Final</quarkus-plugin.version>
     <compiler-plugin.version>3.8.1</compiler-plugin.version>
-    <quarkus.platform.group-id>io.quarkus</quarkus.platform.group-id>
+    <dependency>
+       <groupId>io.quarkus</groupId>
+       <artifactId>quarkus-container-image-s2i</artifactId>
+    </dependency>
   </properties>
   <dependencyManagement>
     <dependencies>
