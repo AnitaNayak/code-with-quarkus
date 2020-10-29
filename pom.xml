@@ -20,6 +20,14 @@
        <groupId>io.quarkus</groupId>
        <artifactId>quarkus-container-image-s2i</artifactId>
     </dependency>
+    <dependency>
+       <groupId>io.quarkus</groupId>
+       <artifactId>quarkus-container-image-openshift</artifactId>
+    </dependency>
+    <dependency>
+       <groupId>io.quarkus</groupId>
+       <artifactId>quarkus-openshift</artifactId>
+    </dependency>
   </properties>
   <dependencyManagement>
     <dependencies>
